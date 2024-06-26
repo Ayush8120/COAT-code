@@ -3,7 +3,7 @@
 
 /thortils/trial_scripts
 /thortils/__pycache__
-/thortils/frame_buffer*
+/thortils/frame-buffer
 /thortils/gitignore*
 
 /thortils/data/games
