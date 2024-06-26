@@ -71,10 +71,9 @@ present at `/commonsense`
 present in `thortils/` folder
 
 ##### install AI2thor 
-    `pip install ai2thor`
+    pip install ai2thor
 
-##### install thortils    
-    [thortils](https://github.com/zkytony/thortils) repository
+##### install [thortils](https://github.com/zkytony/thortils) repository
     
     - concept_query.py : contains code to query conceptnet
     - bbox_conceptnet_query_teleop.py : [teleop] Object names from Ai2thor semantic segmentation (GT) - pass to conceptnet - make a dictionary of object-utility pairings - saves RGB frames with bounding box utility labellings
