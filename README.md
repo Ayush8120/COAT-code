@@ -17,11 +17,11 @@ This repository consists of code for he following aspects:
 
 -------------------------------
 
-## Dataset Creation Code:
+### Dataset Creation Code:
 
 present at `thortils/data`
 
-    set the root as : `thortils`
+    For running scipts pass the args.root as `/thortils`
     ## Task-u :
     requires: objects.json
         - run  `task_u_dataset_gen.py`; it creates task_u dataset
@@ -40,17 +40,20 @@ present at `thortils/data`
         - run `task_0-1-2_dataset_gen.py` ; it creates task_2 dataset 
     
     ## Full Pipeline Data Creation:
-    set root as `thortils/data
+    For running scipts pass the args.root as `/thortils/data`
     requires : tasks.json,oracle.json, pouch_subop.json, all_config.json and full_pipeline_datasets_helper.py
         - run `full-pipeline-dataset-creation.py`
         - script contains function to generate both F_ideal and F_moderate datasets
 
 
-## Evaluation Code [for task-0,1,2 evaluations]
+### Evaluation Code [for task-0,1,2 evaluations]
 
+`export API_KEY='your PALM API KEY'`
+    
 present at `/commonsense`
-
-    set the root as `/thortils/data`
+    
+    For running scipts pass the args.root as `/thortils/data`
+ 
     - run the `evaluation_script.py`
     - `LLM.py` defines a class for setting a language model and prompting it.
     - `database.py` allows us to create caching mechanism for resuming evaluations 

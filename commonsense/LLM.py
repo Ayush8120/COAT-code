@@ -17,14 +17,12 @@ import transformers
 from transformers import AutoTokenizer, AutoModel, AutoModelForCausalLM,AutoModelForSeq2SeqLM
 from transformers import AutoTokenizer
 
-# palm.configure(api_key=os.getenv("DEMO_PALM_API_KEY"))
-palm.configure(api_key=os.getenv("AYUSH_PALM_API_KEY"))
-#palm.configure(api_key=os.getenv("RAGHAV_PALM_API_KEY"))
+palm.configure(api_key=os.getenv("PALM_API_KEY"))
 
-openai.api_type = os.getenv("OPENAI_API_TYPE")
-openai.api_base = os.getenv("OPENAI_API_BASE")
-openai.api_version = os.getenv("OPENAI_API_VERSION")
-openai.api_key = os.getenv("OPENAI_API_KEY")
+#openai.api_type = os.getenv("OPENAI_API_TYPE")
+#openai.api_base = os.getenv("OPENAI_API_BASE")
+#openai.api_version = os.getenv("OPENAI_API_VERSION")
+#openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
 class ChatModel:
