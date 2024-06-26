@@ -3,7 +3,7 @@ from transformers import GenerationConfig
 import google.generativeai as palm
 import pdb
 import os
-palm.configure(api_key='AIzaSyB4R3FFMgTozt9jG-HHK4bcAlboDpPZsnc')
+palm.configure(api_key='Please-enter-your-PaLM/Gemini-API-Key')
     
 class query_llm():
     """A class for creating an object that allows us to prompt various language models to give us best utilities associated with the objects.

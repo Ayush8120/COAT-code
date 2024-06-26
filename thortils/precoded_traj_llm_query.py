@@ -56,7 +56,7 @@ def main(init_func=None, step_func=None):
     
     elif args.llm == 'palm':
         LLM = query_llm('text','random', args.llm)
-        palm.configure(api_key='AIzaSyB4R3FFMgTozt9jG-HHK4bcAlboDpPZsnc')
+        palm.configure(api_key='Please-enter-your-PaLM/Gemini-API-Key'')
     
     controller = Controller(platform=CloudRendering, save_image_per_frame=True, width=400,
     height=400,
