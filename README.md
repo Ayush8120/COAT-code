@@ -1,4 +1,4 @@
-### Official Codebase for 'Physical Reasoning and Object Planning for Household Embodied Agents' 
+## Official Codebase for 'Physical Reasoning and Object Planning for Household Embodied Agents' [TMLR May 2024]
 -------------------------------
 
 [OpenReview](https://openreview.net/forum?id=xYkdmEGhIM) | [Datasets](https://github.com/Ayush8120/COAT)
@@ -60,7 +60,7 @@ present at `/commonsense`
     - `constants.py` sets the constants important for running evaluations
     
 
-##  Some points about AI2Thor Experiment code
+###  Some points about AI2Thor Experiment code
 
 <p align="center">
 <img src="https://github.com/AYush8120/COAT-code/blob/main/utility-bbox.png" alt="Example Output from AI2Thor Experiment">
@@ -69,8 +69,10 @@ present at `/commonsense`
 </p>
 
 present in `thortils/` folder
+
+install AI2thor and [thortils](https://github.com/zkytony/thortils) repository
     
-    - install AI2thor and [thortils](https://github.com/zkytony/thortils) repository
+    - concept_query.py : contains code to query conceptnet
     - bbox_conceptnet_query_teleop.py : [teleop] Object names from Ai2thor semantic segmentation (GT) - pass to conceptnet - make a dictionary of object-utility pairings - saves RGB frames with bounding box utility labellings
     - precoded_traj_llm_query.py : [pre-coded trajectory] Object names from Ai2thor semantic segmentation (GT) - pass to PalM/Alpaca7B - make a dictionary of object-utility pairings - saves RGB frames with bounding box utility labellings.
 
