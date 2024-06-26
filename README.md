@@ -11,6 +11,7 @@ This repository consists of code for he following aspects:
 
 -------------------------------
 ###  AI2Thor Experiment
+Querying LLMs and ConceptNet for generating object utility for all visible objects. We save the RGB frames with bounding box and utility labellings. This highlighted the shortcomings of knowledge graphs like conceptnet and further helped us qualitatively conclude the presence of proper object-utility mappings in LLMs.
 | ConceptNet | PaLM | Alpaca7B |
 |---|---|---|
 | !["ConceptNet Output"](https://github.com/Ayush8120/COAT-code/blob/main/utility-bbox-cn.png)<br>_Closed-set utilities from ConceptNet_ | !["Alt text 2"](https://github.com/Ayush8120/COAT-code/blob/main/utility-bbox-palm.png)<br>_Open set utilities from PaLM_ | !["Alpaca7B Output"](https://github.com/Ayush8120/COAT-code/blob/main/utility-bbox-alpaca.png)<br>_Open set utilities from Alpaca7B_ |
