@@ -57,6 +57,7 @@ present at `/commonsense`
 
 <p align="center">
 <img src="https://github.com/AYush8120/COAT-code/blob/main/utility-bbox.png" alt="Example Output from AI2Thor Experiment">
+<br>
 <em>We get utility for each visible object through ConceptNet or through PaLM/Alpaca7B</em>
 </p>
 
