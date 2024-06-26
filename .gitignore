@@ -6,9 +6,9 @@
 /thortils/frame_buffer*
 /thortils/gitignore*
 
-/data/games
-/data/finetune_config.py
-/data/train_data_creation.py
-/data/preprocessing_finetune_data.ipynb
+/thortils/data/games
+/thortils/data/finetune_config.py
+/thortils/data/train_data_creation.py
+/thortils/data/preprocessing_finetune_data.ipynb
 
 
