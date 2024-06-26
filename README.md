@@ -68,16 +68,16 @@ present at `/commonsense`
 <em>We get utility for each visible object through ConceptNet or through PaLM/Alpaca7B</em>
 </p>
 
-present in `thortils/` folder
+Code present in `thortils/` folder
 
 ##### install AI2thor 
     pip install ai2thor
 
-##### install [thortils](https://github.com/zkytony/thortils) repository
+##### Install [thortils](https://github.com/zkytony/thortils) repository
     
-    - concept_query.py : contains code to query conceptnet
-    - bbox_conceptnet_query_teleop.py : [teleop] Object names from Ai2thor semantic segmentation (GT) - pass to conceptnet - make a dictionary of object-utility pairings - saves RGB frames with bounding box utility labellings
-    - precoded_traj_llm_query.py : [pre-coded trajectory] Object names from Ai2thor semantic segmentation (GT) - pass to PalM/Alpaca7B - make a dictionary of object-utility pairings - saves RGB frames with bounding box utility labellings.
+    - concept_query.py : contains standalone code to query conceptnet
+    - bbox_conceptnet_query_teleop.py : [teleop] makes a dictionary of object-utility pairings(conceptnet) - saves RGB frames with bounding box utility labellings
+    - precoded_traj_llm_query.py : [pre-coded trajectory] make a dictionary of object-utility pairings(PaLM/Alpaca7B) - saves RGB frames with bounding box utility labellings.
 
 <!--- check out constants.py and controller.py in thortils/thortils folder (Ai2thor repo) -->
 <!--- supress the GPU for Ai2thor in miniconda/.../controller.py ; undo if it was unnecessary -->
