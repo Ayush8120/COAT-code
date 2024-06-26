@@ -1,4 +1,7 @@
-# Official Codebase for 'Physical Reasoning and Object Planning for Household Embodied Agents' 
+## Official Codebase for 'Physical Reasoning and Object Planning for Household Embodied Agents' 
+-------------------------------
+[OpenReview](https://openreview.net/forum?id=xYkdmEGhIM) | [Datasets](https://github.com/Ayush8120/COAT)
+
 -------------------------------
 This repository consists of code for he following aspects:
     
@@ -63,7 +66,7 @@ present at `/commonsense`
 
 present in `thortils/` folder
     
-    - install AI2thor and thortils repository
+    - install AI2thor and [thortils](https://github.com/zkytony/thortils) repository
     - check out constants.py and controller.py in thortils/thortils folder (Ai2thor repo)
     - supress the GPU for Ai2thor in miniconda/.../controller.py ; undo if it was unnecessary
     - bbox_conceptnet_query_teleop.py : [teleop] Object names from Ai2thor semantic segmentation (GT) - pass to conceptnet - make a dictionary of object-utility pairings - saves RGB frames with bounding box utility labellings
