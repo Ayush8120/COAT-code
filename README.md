@@ -13,7 +13,7 @@ This repository consists of code for he following aspects:
 ###  AI2Thor Experiment
 | ConceptNet | PaLM | Alpaca7B |
 |---|---|---|
-| <img src="https://github.com/Ayush8120/COAT-code/blob/main/utility-bbox.png" alt="ConceptNet Output"><br>_Closed set utilities from ConceptNet_ | !["Alt text 2"](https://github.com/Ayush8120/COAT-code/blob/main/utility-bbox-palm.png)<br>_Open set utilities from PaLM_ | !["Alpaca7B Output"](https://github.com/Ayush8120/COAT-code/blob/main/utility-bbox-alpaca.png)<br>_Open set utilities from Alpaca7B_ |
+| !["ConceptNet Output"](https://github.com/Ayush8120/COAT-code/blob/main/utility-bbox.png)<br>_Closed set utilities from ConceptNet_ | !["Alt text 2"](https://github.com/Ayush8120/COAT-code/blob/main/utility-bbox-palm.png)<br>_Open set utilities from PaLM_ | !["Alpaca7B Output"](https://github.com/Ayush8120/COAT-code/blob/main/utility-bbox-alpaca.png)<br>_Open set utilities from Alpaca7B_ |
 
 
 Code present in `thortils/` folder
