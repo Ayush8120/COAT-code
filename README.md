@@ -68,9 +68,10 @@ present at `/commonsense`
 present in `thortils/` folder
     
     - install AI2thor and [thortils](https://github.com/zkytony/thortils) repository
-    <--- check out constants.py and controller.py in thortils/thortils folder (Ai2thor repo) -->
-    <--- supress the GPU for Ai2thor in miniconda/.../controller.py ; undo if it was unnecessary -->
     - bbox_conceptnet_query_teleop.py : [teleop] Object names from Ai2thor semantic segmentation (GT) - pass to conceptnet - make a dictionary of object-utility pairings - saves RGB frames with bounding box utility labellings
     - precoded_traj_llm_query.py : [pre-coded trajectory] Object names from Ai2thor semantic segmentation (GT) - pass to PalM/Alpaca7B - make a dictionary of object-utility pairings - saves RGB frames with bounding box utility labellings.
 
+<!--- check out constants.py and controller.py in thortils/thortils folder (Ai2thor repo) -->
+<!--- supress the GPU for Ai2thor in miniconda/.../controller.py ; undo if it was unnecessary -->
+    
 Video Summary of AI2thor experiemnt : [Youtube Video Link](https://youtu.be/P6JwobOAl5o)
